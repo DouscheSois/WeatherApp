@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+
+.home {
+  margin-top: 2rem;
+  width: 30rem;
+  height: 40rem;
+  text-align: center;
+  background-color: #393e46;
+}
+
+.search-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+i {
+  color: #333;
+  margin-top: 1rem;
+  background-color: #fff;
+  padding: 1.1rem;
+  border: 0.5rem solid #00adb5;
+  border-radius: 1rem;
+}
+
+input {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  width: 22rem;
+  padding: 0.5rem;
+  background-color: white;
+  color: black;
+  border: 0.5rem solid #eeeeee;
+  border-radius: 0.5rem;
+  box-shadow: 4px 4px 0px 0px rgba(244, 244, 244, 0.5);
+}
+
+.output {
+  margin-top: 1rem;
+  background-color: #00adb5;
+  color: #333;
+  width: 30rem;
+  height: 30rem;
+  border: 0.4rem solid #333;
+}
+
+.location {
+  background-color: beige;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 0.4rem solid #fff;
+}
+
+.date {
+  background-color: #00adb5;
+  font-size: 1rem;
+  padding: 0.5rem;
+  border: 0.4rem solid #fff;
+}
+
+.sky {
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: 0.4rem solid #fff;
+  font-size: 1.5rem;
+}
+
+.temp {
+  font-size: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: 0.4rem solid #fff;
+}
+
+.important {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  opacity: 0.8;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.5rem;
+}
