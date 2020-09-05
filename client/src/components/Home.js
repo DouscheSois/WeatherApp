@@ -24,7 +24,7 @@ const Home = () => {
     }
   };
 
-  const newDate = (d) => {
+  const newDate = (n) => {
     let months = [
       "Jan",
       "Feb",
@@ -49,10 +49,10 @@ const Home = () => {
       "Saturday",
     ];
 
-    let day = days[d.getDay()];
-    let numberDate = d.getDate();
-    let month = months[d.getMonth()];
-    let year = d.getFullYear();
+    let day = days[n.getDay()];
+    let numberDate = n.getDate();
+    let month = months[n.getMonth()];
+    let year = n.getFullYear();
 
     return `${day} ${numberDate} ${month} ${year}`;
   };
@@ -66,7 +66,7 @@ const Home = () => {
           placeholder="Enter City..."
           onChange={(e) => setQuery(e.target.value)}
           value={query}
-          onKeyPress={search}
+          onEnter={search}
         />
       </div>
       <div className="output">
