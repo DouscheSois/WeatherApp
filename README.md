@@ -6,7 +6,7 @@ HTML, CSS, JS, REACT
 
 Live Link = {}
 
-<img src="img/img1.png" width="400" height="500" />
+<img src="src/img/img1.png" width="700" height="500">
 <hr />
 
 <h3>Summary</h3>
