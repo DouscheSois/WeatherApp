@@ -66,7 +66,7 @@ const Home = () => {
           placeholder="Enter City..."
           onChange={(e) => setQuery(e.target.value)}
           value={query}
-          onEnter={search}
+          onKeyPress={search}
         />
       </div>
       <div className="output">
