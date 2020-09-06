@@ -4,7 +4,7 @@ A fun app that fetches a weather API. User can search for a city and some weathe
 
 HTML, CSS, JS, REACT
 
-Live Link = {}
+Live Link = https://theweathera.herokuapp.com/
 
 <img src="client/src/img/img1.png" width="400" height="500">
 <hr />
